@@ -1,26 +1,23 @@
 {
   "name": "bicimad",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Javier Arce",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/javierarce/bicimad.git"
-  },
-  "keywords": [
-    "bicimad"
-  ],
-  "bugs": {
-    "url": "https://github.com/javierarce/bicimad/issues"
-  },
-  "homepage": "https://github.com/javierarce/bicimad#readme",
-  "description": "",
-  "dependencies": {
-    "request": "^2.88.2",
-    "request-promise-native": "^1.0.9"
-  }
+    "version": "1.0.1",
+    "main": "index.js",
+    "author": "Javier Arce",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/javierarce/bicimad.git"
+    },
+    "keywords": [
+      "bicimad"
+    ],
+    "bugs": {
+      "url": "https://github.com/javierarce/bicimad/issues"
+    },
+    "homepage": "https://github.com/javierarce/bicimad#readme",
+    "description": "Get the list of BiciMad stations.",
+    "dependencies": {
+      "request": "^2.88.2",
+      "request-promise-native": "^1.0.9"
+    }
 }
