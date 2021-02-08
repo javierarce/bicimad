@@ -14,9 +14,9 @@ Node package that returns the list of BiciMad stations.
 ## Usage
 
 ```javascript
-let Bicimad = require('bicimad');
+let BiciMad = require('bicimad');
 
-Bicimad.get().then(result =>
+BiciMad.get().then(result =>
   console.log(result)
 );
 
